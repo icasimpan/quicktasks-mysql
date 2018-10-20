@@ -1,0 +1,9 @@
+baseURL = "https://ismael.casimpan.com/quicktasks-mysql"
+languageCode = "en-us"
+title = "Quick Tasks: MySQL/MariaDB"
+theme = "basics"
+
+[params]
+    author = "Ismael Casimpan"
+    github = "icasimpan"
+    #gitlab = "username2"
