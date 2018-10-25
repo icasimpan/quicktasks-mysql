@@ -11,10 +11,10 @@ env:
 
 after_success:
   - MESSAGE='Commit with Travis CI'
-  - git clone git://${GH_REPO}
-  - cd ${REPO}
-  - ls
-  - mv public ~/
+  #- git clone git://${GH_REPO}
+  #- cd ${REPO}
+  - ls -l
+  - mv public ~/ || exit 1
   - cd ~/public
   - git init
   - git add .
