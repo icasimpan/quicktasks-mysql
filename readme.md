@@ -1,3 +1,5 @@
+[![Build status](https://travis-ci.com/icasimpan/quicktasks-mysql.svg)](https://travis-ci.com/icasimpan/quicktasks-mysql)
+
 *What is this*
 
 Is my personal notes, written using with the help of hugo.
