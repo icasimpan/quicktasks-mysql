@@ -1,5 +1,5 @@
 ---
-title: "Skrink Huge ibdata1"
+title: "Shrink Huge ibdata1"
 date: 2019-11-24T23:15:37+08:00
 draft: false
 ---
