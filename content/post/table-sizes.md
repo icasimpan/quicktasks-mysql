@@ -1,6 +1,7 @@
 ---
 title: "Show Table Sizes"
 date: 2020-01-21T23:17:11+08:00
+tags: [mysql, mariadb, table, sizes]
 draft: false
 ---
 

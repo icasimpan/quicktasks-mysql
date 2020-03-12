@@ -1,6 +1,7 @@
 ---
 title: "Slow Query Logs"
 date: 2019-02-12T22:47:36+08:00
+tags: [mysql, mariadb, logs, slow, slow-query]
 draft: false
 ---
 

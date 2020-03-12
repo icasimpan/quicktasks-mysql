@@ -1,6 +1,7 @@
 ---
 title: "AUTOMySQLBackup: Looking for .my.cnf in your $HOME instead of in /root"
 date: 2018-10-15T12:32:03+08:00
+tags: [mysql, mariadb, automysqlbackup, config]
 draft: false
 ---
 

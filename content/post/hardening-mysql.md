@@ -1,6 +1,7 @@
 ---
 title: "Hardening Mysql"
 date: 2018-04-08T23:31:14+08:00
+tags: [mysql, mariadb, hardening]
 draft: false
 ---
 

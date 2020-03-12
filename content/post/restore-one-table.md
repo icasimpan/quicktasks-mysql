@@ -1,6 +1,7 @@
 ---
 title: "Restore One Table"
 date: 2018-04-08T23:22:49+08:00
+tags: [mysql, mariadb, restore, table, backup]
 draft: false
 ---
 

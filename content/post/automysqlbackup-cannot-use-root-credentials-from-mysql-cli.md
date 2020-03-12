@@ -1,6 +1,7 @@
 ---
 title: "Automysqlbackup: Cannot Use Root Credentials From MySQL CLI"
 date: 2018-10-15T12:00:13+08:00
+tags: [mysql, mariadb, automysqlbackup, root, credentials]
 draft: false
 ---
 

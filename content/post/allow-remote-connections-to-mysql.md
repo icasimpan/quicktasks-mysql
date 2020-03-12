@@ -1,6 +1,7 @@
 ---
 title: "Allow Remote Connections to MySQL/MariaDB"
 date: 2018-04-08T23:11:25+08:00
+tags: [mysql, mariadb, remote]
 draft: false
 ---
 

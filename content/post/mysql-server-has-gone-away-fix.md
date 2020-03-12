@@ -1,6 +1,7 @@
 ---
 title: "Mysql Server Has Gone Away Fix"
 date: 2018-04-08T22:33:18+08:00
+tags: [mysql, mariadb, error]
 draft: false
 ---
 

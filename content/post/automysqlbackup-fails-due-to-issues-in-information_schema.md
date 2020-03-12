@@ -1,6 +1,7 @@
 ---
 title: "Automysqlbackup Fails Due to Issues in Information_schema"
 date: 2018-10-15T12:11:14+08:00
+tags: [mysql, mariadb, automysqlbackup, failure, information_schema]
 draft: false
 ---
 

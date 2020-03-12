@@ -1,6 +1,7 @@
 ---
 title: "Dump MySQL Database"
 date: 2018-10-15T12:38:49+08:00
+tags: [mysql, mariadb, dump, database, mysqldump, cli]
 draft: false
 ---
 ```

@@ -1,6 +1,7 @@
 ---
 title: "Undefined Class Constant MYSQL_ATTR_SSL_CA"
 date: 2018-10-15T07:27:21+08:00
+tags: [mysql, mariadb, error, undefined, logs]
 draft: false
 ---
 ```

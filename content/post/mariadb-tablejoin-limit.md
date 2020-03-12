@@ -1,6 +1,7 @@
 ---
 title: "MariaDB Table Join Limit"
 date: 2018-10-23T22:30:18+08:00
+tags: [mysql, mariadb, join, table]
 draft: false
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "[InnoDB] Fatal error: cannot allocate memory for the buffer pool"
 date: 2018-12-29T09:47:00+08:00
+tags: [mysql, mariadb, innodb, error, memory, config, configuration, logs]
 draft: false
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Count Number of Tables in a MySQL Database"
 date: 2018-10-15T12:43:31+08:00
+tags: [mysql, mariadb, tables, count]
 draft: false
 ---
 ```

@@ -1,6 +1,7 @@
 ---
 title: "Dump One or More Table"
 date: 2018-04-08T23:21:30+08:00
+tags: [mysql, mariadb, dump, table, mysqldump]
 draft: false
 ---
 
