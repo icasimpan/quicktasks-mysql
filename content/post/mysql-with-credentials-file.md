@@ -1,6 +1,6 @@
 ---
 title: "MySQL/MariaDB with Credentials File"
-date: 2020-02-19T23:11:25+08:00
+date: 2020-05-12T23:11:25+08:00
 tags: [mysql, mariadb, authentication, permission, credentials, credentials-file]
 draft: false
 ---
