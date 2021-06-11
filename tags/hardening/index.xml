@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hardening on MySQL / MariaDB | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-mysql/tags/hardening/</link>
+    <description>Recent content in hardening on MySQL / MariaDB | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Apr 2018 23:31:14 +0800</lastBuildDate><atom:link href="https://ismael.casimpan.com/quicktasks-mysql/tags/hardening/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hardening Mysql</title>
+      <link>https://ismael.casimpan.com/quicktasks-mysql/hardening-mysql/</link>
+      <pubDate>Sun, 08 Apr 2018 23:31:14 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-mysql/hardening-mysql/</guid>
+      <description>icasimpan@am2018:~$ sudo mysql_secure_installation Securing the MySQL server deployment. Connecting to MySQL using a blank password. VALIDATE PASSWORD PLUGIN can be used to test passwords and improve security. It checks the strength of password and allows the users to set only those passwords which are secure enough. Would you like to setup VALIDATE PASSWORD plugin? Press y|Y for Yes, any other key for No: Y There are three levels of password validation policy: LOW Length &amp;gt;= 8 MEDIUM Length &amp;gt;= 8, numeric, mixed case, and special characters STRONG Length &amp;gt;= 8, numeric, mixed case, special characters and dictionary file Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG: 8 Invalid option provided.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>memory on MySQL / MariaDB | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-mysql/tags/memory/</link>
+    <description>Recent content in memory on MySQL / MariaDB | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Dec 2018 09:47:00 +0800</lastBuildDate><atom:link href="https://ismael.casimpan.com/quicktasks-mysql/tags/memory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[InnoDB] Fatal error: cannot allocate memory for the buffer pool</title>
+      <link>https://ismael.casimpan.com/quicktasks-mysql/innodb-fatal-error-cannot-allocate-memory-buffer-pool/</link>
+      <pubDate>Sat, 29 Dec 2018 09:47:00 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-mysql/innodb-fatal-error-cannot-allocate-memory-buffer-pool/</guid>
+      <description>From /var/log/mariadb/mariadb.log, something like
+ 150515 12:10:45 InnoDB: Completed initialization of buffer pool 150515 12:10:45 InnoDB: Fatal error: cannot allocate memory for the buffer pool 150515 12:10:45 [ERROR] Plugin &#39;InnoDB&#39; init function returned error. 150515 12:10:45 [ERROR] Plugin &#39;InnoDB&#39; registration as a STORAGE ENGINE failed. 150515 12:10:45 [ERROR] Unknown/unsupported storage engine: InnoDB 150515 12:10:45 [ERROR] Aborting  Ensure to allocate 50% of max machine RAM. Assuming you have 2GB in the machine, you&amp;rsquo;ll need</description>
+    </item>
+    
+  </channel>
+</rss>

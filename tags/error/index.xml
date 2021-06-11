@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>error on MySQL / MariaDB | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-mysql/tags/error/</link>
+    <description>Recent content in error on MySQL / MariaDB | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Dec 2018 09:47:00 +0800</lastBuildDate><atom:link href="https://ismael.casimpan.com/quicktasks-mysql/tags/error/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[InnoDB] Fatal error: cannot allocate memory for the buffer pool</title>
+      <link>https://ismael.casimpan.com/quicktasks-mysql/innodb-fatal-error-cannot-allocate-memory-buffer-pool/</link>
+      <pubDate>Sat, 29 Dec 2018 09:47:00 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-mysql/innodb-fatal-error-cannot-allocate-memory-buffer-pool/</guid>
+      <description>From /var/log/mariadb/mariadb.log, something like
+ 150515 12:10:45 InnoDB: Completed initialization of buffer pool 150515 12:10:45 InnoDB: Fatal error: cannot allocate memory for the buffer pool 150515 12:10:45 [ERROR] Plugin &#39;InnoDB&#39; init function returned error. 150515 12:10:45 [ERROR] Plugin &#39;InnoDB&#39; registration as a STORAGE ENGINE failed. 150515 12:10:45 [ERROR] Unknown/unsupported storage engine: InnoDB 150515 12:10:45 [ERROR] Aborting  Ensure to allocate 50% of max machine RAM. Assuming you have 2GB in the machine, you&amp;rsquo;ll need</description>
+    </item>
+    
+    <item>
+      <title>Undefined Class Constant MYSQL_ATTR_SSL_CA</title>
+      <link>https://ismael.casimpan.com/quicktasks-mysql/undefined-class-constant-mysql_attr_ssl_ca/</link>
+      <pubDate>Mon, 15 Oct 2018 07:27:21 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-mysql/undefined-class-constant-mysql_attr_ssl_ca/</guid>
+      <description>drupal@ubuntu:/var/www/sites/openedu.localhost/docroot$ drush si site-name=&#39;OpenEDU Testing&#39; --db-url=&#39;mysql://openedu_DBA:openedu_PASS@127.0.0.1/openedu_DB&#39; openedu PHP Fatal error: Uncaught Error: Undefined class constant &#39;MYSQL_ATTR_SSL_CA&#39; in /usr/local/share/drush/lib/Drush/Sql/Sqlmysql.php:56 Stack trace: #0 /usr/local/share/drush/lib/Drush/Sql/SqlBase.php(164): Drush\Sql\Sqlmysql-&amp;gt;creds() #1 /usr/local/share/drush/lib/Drush/Sql/Sqlmysql.php(107): Drush\Sql\SqlBase-&amp;gt;query(&#39;SELECT 1;&#39;, &#39;/tmp/drush_uX7T...&#39;, &#39;/dev/null&#39;) #2 /usr/local/share/drush/commands/core/site_install.drush.inc(146): Drush\Sql\Sqlmysql-&amp;gt;db_exists() #3 /usr/local/share/drush/includes/command.inc(422): drush_core_pre_site_install(&#39;site-name=OpenE...&#39;) #4 /usr/local/share/drush/includes/command.inc(231): _drush_invoke_hooks(Array, Array) #5 /usr/local/share/drush/includes/command.inc(199): drush_command(&#39;site-name=OpenE...&#39;) #6 /usr/local/share/drush/lib/Drush/Boot/BaseBoot.php(67): drush_dispatch(Array) #7 /usr/local/share/drush/includes/preflight.inc(66): Drush\Boot\BaseBoot-&amp;gt;bootstrap_and_dispatch() #8 /usr/local/share/drush/drush.php(12): drush_main() #9 {main} thrown in /usr/local/share/drush/lib/Drush/Sql/Sqlmysql.php on line 56 Drush command terminated abnormally due to an unrecoverable error. [error] Error: Uncaught Error: Undefined class constant &#39;MYSQL_ATTR_SSL_CA&#39; in /usr/local/share/drush/lib/Drush/Sql/Sqlmysql.</description>
+    </item>
+    
+    <item>
+      <title>Error 1273 (HY000): Unknown collation &#39;utf8mb4_unicode_520_ci</title>
+      <link>https://ismael.casimpan.com/quicktasks-mysql/error-1273-hy000-unknown-collation-utf8mb4_unicode_520_ci/</link>
+      <pubDate>Sun, 08 Apr 2018 23:28:33 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-mysql/error-1273-hy000-unknown-collation-utf8mb4_unicode_520_ci/</guid>
+      <description>Caused by difference in database versions where the latest version you&amp;rsquo;re running does not support &amp;lsquo;utf8mb4unicode520_ci&amp;rsquo;.
+Search and replace it from within the dump file with &amp;lsquo;utf8mb4_unicode_ci&amp;rsquo;.
+See details in https://www.digitalocean.com/community/questions/error-1273-hy000-at-line-25-unknown-collation-utf8mb4_unicode_520_ci</description>
+    </item>
+    
+    <item>
+      <title>Mysql Not Restarting Nothing in Logs</title>
+      <link>https://ismael.casimpan.com/quicktasks-mysql/mysql-not-restarting-nothing-in-logs/</link>
+      <pubDate>Sun, 08 Apr 2018 23:24:04 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-mysql/mysql-not-restarting-nothing-in-logs/</guid>
+      <description>Check /etc/mysql/my.cnf and examine &amp;ldquo;datadir&amp;rdquo; value. If it isn&amp;rsquo;t valid or you know the disk is bad, change it. Restart service and all will be well.</description>
+    </item>
+    
+    <item>
+      <title>Mysql Server Has Gone Away Fix</title>
+      <link>https://ismael.casimpan.com/quicktasks-mysql/mysql-server-has-gone-away-fix/</link>
+      <pubDate>Sun, 08 Apr 2018 22:33:18 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-mysql/mysql-server-has-gone-away-fix/</guid>
+      <description>If you see an error like the following:
+ERROR 2006 (HY000): MySQL server has gone away No connection. Trying to reconnect... Connection id: 990 Current database: yourDB  Add the the following to /etc/my.cnf, increasing the value if error persists.
+&#39;max_allowed_packet=64M&#39;  See https://stackoverflow.com/questions/7942154/mysql-error-2006-mysql-server-has-gone-away for reference.</description>
+    </item>
+    
+  </channel>
+</rss>

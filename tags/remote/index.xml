@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>remote on MySQL / MariaDB | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-mysql/tags/remote/</link>
+    <description>Recent content in remote on MySQL / MariaDB | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Apr 2018 23:11:25 +0800</lastBuildDate><atom:link href="https://ismael.casimpan.com/quicktasks-mysql/tags/remote/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Allow Remote Connections to MySQL/MariaDB</title>
+      <link>https://ismael.casimpan.com/quicktasks-mysql/allow-remote-connections-to-mysql/</link>
+      <pubDate>Sun, 08 Apr 2018 23:11:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-mysql/allow-remote-connections-to-mysql/</guid>
+      <description>Use format below:
+GRANT ALL ON yourDB.* TO yourDBA@&#39;23.216.39.44&#39; IDENTIFIED BY &#39;yourPASS&#39;;  and make sure that &amp;lsquo;bind-address&amp;rsquo; in /etc/my.cnf is either 0.0.0.0 or commented out for this to take effect. Turn-off as well any firewall, SELinux, etc.
+Further details in https://www.digitalocean.com/community/questions/how-to-allow-remote-mysql-database-connection</description>
+    </item>
+    
+  </channel>
+</rss>

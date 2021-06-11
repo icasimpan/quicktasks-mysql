@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>databases on MySQL / MariaDB | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-mysql/tags/databases/</link>
+    <description>Recent content in databases on MySQL / MariaDB | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Sep 2020 23:11:25 +0800</lastBuildDate><atom:link href="https://ismael.casimpan.com/quicktasks-mysql/tags/databases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Check if databases are empty</title>
+      <link>https://ismael.casimpan.com/quicktasks-mysql/check-if-databases-are-empty/</link>
+      <pubDate>Wed, 02 Sep 2020 23:11:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-mysql/check-if-databases-are-empty/</guid>
+      <description>To check if MariaDB/MySQL databases are empty in your DB Server, run the following query:
+MariaDB [(none)]&amp;gt; SELECT table_schema, # &amp;quot;DB Name&amp;quot;, -&amp;gt; Round(Sum(data_length + index_length) / 1024 / 1024, 1) # &amp;quot;DB Size in MB&amp;quot; -&amp;gt; FROM information_schema.tables -&amp;gt; GROUP BY table_schema; +--------------------+---------------------------------------------------------+ | table_schema | Round(Sum(data_length + index_length) / 1024 / 1024, 1) | +--------------------+---------------------------------------------------------+ | facultyblog | 970.5 | | information_schema | 0.2 | | laxnews | 65.</description>
+    </item>
+    
+  </channel>
+</rss>
